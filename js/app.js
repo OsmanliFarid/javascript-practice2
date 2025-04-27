@@ -42,6 +42,7 @@ InputSubmit.addEventListener("click",(e) =>{
 
 const TableShow = (array) =>{
     localStorage.setItem("New",NewArray)
+    localStorage.clear()
     Table.innerHTML = ""
     array.forEach((element,index) => {
         Table.innerHTML += `
