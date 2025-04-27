@@ -53,11 +53,7 @@ const TableShow = (array) =>{
             
             
     });
-    const TableNew = document.querySelector("#TableNew")
-    if(array.length === 0){
-        TableNew.remove()
-        
-    }
+    
 }
 const TableDelete = (NewID) =>{
     NewArray.forEach((item,index) =>{
